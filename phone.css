@@ -1,0 +1,76 @@
+.header{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+    
+}
+
+#services{
+    display: flex;
+    flex-direction: column;
+}
+#idlogo{
+    width: 100px;
+    height: 60px;
+    margin-top: 10px;
+}
+.lists ul li a{
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.lists ul li{
+ margin-bottom: 26px;
+}
+/* #home::before{
+    height: auto;
+    width:auto;
+    background: url('../bg1.jpg') no-repeat center center/cover;
+    
+
+}
+#home{
+    height: auto;
+    width:auto; */
+
+    #home{
+        height: 100%;
+    }
+#services{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    height: auto;
+   width: auto;
+
+    margin:10px 20px;
+    
+}
+.h-primary{
+    font-size: 2.3rem;
+}
+#clients{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#client-section::before{
+    height: 230px;
+}
+.client-item img{
+ height: 40px;
+ width:40px;
+ flex-wrap: wrap;
+
+}
+#contact::before{
+   height: 600px;
+}
+.h2-primary{
+    font-size: 1.8rem;
+}
